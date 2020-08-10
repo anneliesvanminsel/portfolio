@@ -309,9 +309,63 @@ h5 {
   margin: 0 10px;
 }
 
+.icon.is-heart {
+  fill: #289c8e;
+  margin-left: 0;
+}
+
 .socials {
   justify-content: center;
   background-color: #ffffff;
   padding: 10px 40px;
+}
+
+button {
+  -webkit-appearance: none;
+  font-family: "Source Code Pro", monospace;
+  letter-spacing: 2px;
+}
+
+.btn,
+.button {
+  display: inline-block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px 40px;
+  border-radius: 50px;
+  border: 1px solid #2fc4b2;
+  background-color: #2fc4b2;
+  color: #ffffff;
+  font-family: "Source Code Pro", monospace;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.btn.is-icon,
+.button.is-icon {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  border: none;
+  background-color: transparent;
+}
+
+.btn.is-icon:hover,
+.button.is-icon:hover {
+  background-color: transparent;
+}
+
+.btn.is-small,
+.button.is-small {
+  height: 40px;
+  font-size: 14px;
+  padding: 12px;
+  min-width: 200px;
+  width: 200px;
 }
 

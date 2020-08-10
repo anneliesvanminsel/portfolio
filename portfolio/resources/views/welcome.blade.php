@@ -27,32 +27,38 @@
             <div class="profile__title is-grow">
                 Frontend Web Developer
             </div>
-            <div class="profile__social row socials">
-                @svg('github')
-                @svg('linkedin')
-                @svg('instagram')
-                @svg('twitter')
-            </div>
+            @include('partials.socials')
         </section>
         <section>
             <div>
                 <h1>
-                    HALLO
+                    Hi!
                 </h1>
-                <p>
-                    Dit is wat ik doe
-                </p>
+                <div>
+                    <p>
+                        I am a Belgium based web developer with a bias for Frontend.
+                    </p>
+                    
+                    <p>
+                        @svg('heart', 'is-heart') PHP, React and CSS/SASS.
+                    </p>
+                    
+                    <p>
+                        @svg('heart', 'is-heart') houseplants, cats and creating good food.
+                    </p>
+                </div>
             </div>
             <div class="row">
-                <a href="" class="button">
-                    Resume
-                </a>
-                <a href="" class="button">
-                    Projects
-                </a>
-            </div>
-            <div>
-                stuff
+                @if(Route::has('resume'))
+                    <a href="" class="button">
+                        Resume
+                    </a>
+                @endif
+                @if(Route::has('projects.overview'))
+                    <a href="" class="button">
+                        Projects
+                    </a>
+                @endif
             </div>
         </section>
     </div>

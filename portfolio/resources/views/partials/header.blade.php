@@ -15,21 +15,28 @@
 					About me
 				</a>
 			</li>
-			<li class="nav__item">
-				<a href="" class="nav__link">
-					Resume
-				</a>
-			</li>
-			<li class="nav__item">
-				<a href="" class="nav__link">
-					projects
-				</a>
-			</li>
-			<li class="nav__item">
-				<a href="" class="nav__link">
-					Contact
-				</a>
-			</li>
+			@if(Route::has('resume'))
+				<li class="nav__item">
+					
+					<a href="" class="nav__link">
+						Resume
+					</a>
+				</li>
+			@endif
+			@if(Route::has('projects.overview'))
+				<li class="nav__item">
+					<a href="" class="nav__link">
+						projects
+					</a>
+				</li>
+			@endif
+			@if(Route::has('contact'))
+				<li class="nav__item">
+					<a href="" class="nav__link">
+						Contact
+					</a>
+				</li>
+			@endif
 		</ul>
 	</nav>
 </header>

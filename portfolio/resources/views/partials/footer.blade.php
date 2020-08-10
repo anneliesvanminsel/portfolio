@@ -18,11 +18,6 @@
 		<p>
 			follow
 		</p>
-		<div class="socials row">
-			@svg('github')
-			@svg('linkedin')
-			@svg('instagram')
-			@svg('twitter')
-		</div>
+		@include('partials.socials')
 	</div>
 </footer>
