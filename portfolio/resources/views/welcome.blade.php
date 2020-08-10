@@ -27,7 +27,7 @@
             <div class="profile__title is-grow">
                 Frontend Web Developer
             </div>
-            <div class="profile__social row">
+            <div class="profile__social row socials">
                 @svg('github')
                 @svg('linkedin')
                 @svg('instagram')

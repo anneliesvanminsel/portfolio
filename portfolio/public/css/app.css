@@ -268,11 +268,6 @@ h5 {
   margin: 20px auto;
 }
 
-.profile__social {
-  background-color: #ffffff;
-  padding: 10px 40px;
-}
-
 .hr {
   border: none;
   border-top: 2px solid #2fc4b2;
@@ -305,5 +300,18 @@ h5 {
 
 .is-grow {
   flex-grow: 1;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: #262323;
+  margin: 0 10px;
+}
+
+.socials {
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 10px 40px;
 }
 

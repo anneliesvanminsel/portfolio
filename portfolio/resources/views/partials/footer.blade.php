@@ -3,15 +3,26 @@
 		2020 - Annelies Van Minsel
 	</div>
 	<div>
-		call <br>
-		0485 908 509
+		<p>
+			call
+		</p>
+		+32 (0) 485 908 509
 	</div>
 	<div>
-		write <br>
+		<p>
+			write
+		</p>
 		anneliesvanminsel@outlook;com
 	</div>
 	<div>
-		Follow <br>
-		git, linked in, instagram, twitter (?)
+		<p>
+			follow
+		</p>
+		<div class="socials row">
+			@svg('github')
+			@svg('linkedin')
+			@svg('instagram')
+			@svg('twitter')
+		</div>
 	</div>
 </footer>
