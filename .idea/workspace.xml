@@ -1,18 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63b195e5-328a-4025-9e5c-1e2ace7817b7" name="Default Changelist" comment="" />
+    <list default="true" id="63b195e5-328a-4025-9e5c-1e2ace7817b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/resources/sass/config/_font.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/resources/sass/config/_heading.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/resources/sass/config/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/resources/sass/config/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/resources/sass/config/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portfolio/resources/sass/config/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/.styleci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Middleware/EncryptCookies.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Middleware/TrimStrings.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Middleware/TrustProxies.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/bootstrap/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/cache.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/cache.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/hashing.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/hashing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/logging.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/logging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/config/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/config/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/database/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/database/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/public/web.config" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/public/web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/resources/lang/en/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/resources/lang/en/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/resources/lang/en/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/resources/lang/en/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/resources/lang/en/passwords.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/resources/sass/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/routes/channels.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/routes/channels.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/routes/console.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/routes/console.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/storage/app/public/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/storage/framework/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/storage/framework/testing/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/tests/CreatesApplication.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/tests/CreatesApplication.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/tests/Unit/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/portfolio/composer.json</pharConfigPath>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/portfolio/.env">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/resources/views/welcome.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/config/base.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/resources/views/partials/header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/components/button/_button.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/base/_sanitize.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/components/lines/_hr.scss">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/components/profile/_profile.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/config/_mixins.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/components/row/_row.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -20,10 +207,121 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="716" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/portfolio/.env" />
+        <option value="$PROJECT_DIR$/portfolio/resources/sass/_variables.scss" />
+        <option value="$PROJECT_DIR$/portfolio/resources/sass/config/_variables.scss" />
+        <option value="$PROJECT_DIR$/portfolio/resources/sass/config/_mixins.scss" />
+        <option value="$PROJECT_DIR$/portfolio/resources/sass/config/_font.scss" />
+        <option value="$PROJECT_DIR$/portfolio/resources/sass/accent/_accent.scss" />
+        <option value="$PROJECT_DIR$/portfolio/resources/views/layout/master.blade.php" />
+        <option value="$PROJECT_DIR$/portfolio/resources/views/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/portfolio/resources/sass/components/row/_row.scss" />
+        <option value="$PROJECT_DIR$/portfolio/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/portfolio/resources/sass/base/_sanitize.scss" />
+        <option value="$PROJECT_DIR$/portfolio/resources/views/partials/header.blade.php" />
+        <option value="$PROJECT_DIR$/portfolio/resources/sass/components/button/_button.scss" />
+        <option value="$PROJECT_DIR$/portfolio/resources/sass/config/base.scss" />
+        <option value="$PROJECT_DIR$/portfolio/resources/views/welcome.blade.php" />
+        <option value="$PROJECT_DIR$/portfolio/resources/sass/components/profile/_profile.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/portfolio/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/composer" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/portfolio/vendor/opis/closure" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="720" />
     <option name="y" value="23" />
-    <option name="width" value="724" />
+    <option name="width" value="720" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectView">
@@ -44,6 +342,112 @@
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="portfolio" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="button" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="lines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="row" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -51,11 +455,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/resources/sass/components" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portfolio/resources/sass/components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/portfolio/resources/sass/components" />
+      <recent name="$PROJECT_DIR$/portfolio/resources/sass" />
+      <recent name="$PROJECT_DIR$/portfolio/resources/sass/config" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,18 +495,19 @@
       <option name="presentableId" value="Default" />
       <updated>1596465631284</updated>
       <workItem from="1596465632660" duration="512000" />
-      <workItem from="1596808498412" duration="284000" />
+      <workItem from="1596808498412" duration="350000" />
+      <workItem from="1596833450228" duration="9585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="796000" />
+    <option name="totallyTimeSpent" value="10447000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -104,7 +520,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3120482" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -117,7 +533,146 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/portfolio/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" selection-start-line="55" selection-end-line="59" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/config/_heading.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/config/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/public/web.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/public/mix-manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/config/_image.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/config/_font.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1158">
+          <caret line="117" column="17" lean-forward="true" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/webpack.mix.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/components/accent/_accent.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/views/layout/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/views/partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/components/lines/_hr.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/components/row/_row.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/base/_sanitize.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/views/partials/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/components/button/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/config/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/config/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/resources/sass/components/profile/_profile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
