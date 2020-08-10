@@ -1,0 +1,47 @@
+button {
+	-webkit-appearance: none;
+	@include font-heading;
+}
+
+.btn,
+.button {
+	display: inline-block;
+
+	width: 100%;
+	margin: $spacing-xs 0;
+	padding: 15px $spacing-xs;
+
+	@include font-heading;
+	font-size: 16px;
+	text-transform: uppercase;
+
+	background-color: $c-medium;
+	color: $black;
+	border: none;
+
+	@include default-transition();
+
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+
+	&.is-icon {
+		margin: 0;
+		padding: 0;
+		width: auto;
+		border: none;
+		background-color: transparent;
+
+		&:hover {
+			background-color: transparent;
+		}
+	}
+
+	&.is-small {
+		height: 40px;
+		font-size: 14px;
+		padding: 12px;
+		min-width: 200px;
+		width: 200px;
+	}
+}
