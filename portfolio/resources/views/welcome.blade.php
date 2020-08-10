@@ -24,11 +24,14 @@
                 </p>
             </div>
             <hr class="hr">
-            <div class="profile__title">
+            <div class="profile__title is-grow">
                 Frontend Web Developer
             </div>
             <div class="profile__social row">
-                git, linked in, instagram, twitter (?)
+                @svg('github')
+                @svg('linkedin')
+                @svg('instagram')
+                @svg('twitter')
             </div>
         </section>
         <section>
