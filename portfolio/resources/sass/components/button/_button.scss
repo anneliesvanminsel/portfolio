@@ -9,15 +9,17 @@ button {
 
 	width: 100%;
 	margin: $spacing-xs 0;
-	padding: 15px $spacing-xs;
+	padding: 15px $spacing-m;
 
-	@include font-heading;
-	font-size: 16px;
-	text-transform: uppercase;
+	border-radius: 50px;
+	border: 1px solid $c-medium;
 
 	background-color: $c-medium;
-	color: $black;
-	border: none;
+	color: $white;
+
+	@include font-heading;
+	font-size: 14px;
+	text-transform: uppercase;
 
 	@include default-transition();
 
