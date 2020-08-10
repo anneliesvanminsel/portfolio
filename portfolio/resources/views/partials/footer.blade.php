@@ -1,5 +1,5 @@
-<footer>
-	<div>
+<footer class="footer row">
+	<div class="is-grow">
 		2020 - Annelies Van Minsel
 	</div>
 	<div>
