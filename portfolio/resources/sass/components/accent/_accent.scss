@@ -1,0 +1,10 @@
+.accent {
+	&__block {
+		@include pseudo();
+		width: 15px;
+		height: 15px;
+		position: relative;
+
+		background-color: $c-medium;
+	}
+}
