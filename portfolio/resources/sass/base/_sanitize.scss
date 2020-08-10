@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+}
+
+@import '../config/font';
+@import '../config/variables';
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	@include font-base;
+	width: 100%;
+
+	&.dark {
+		background-color: $medium-grey;
+	}
+}
+
+main {
+	flex-grow: 1;
+}
+
+a {
+	cursor: pointer;
+	display: block;
+
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	outline: none;
+	background-color: transparent;
+}

@@ -1,8 +1,11 @@
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
 
-// Variables
-@import 'variables';
+// Base / Config
+@import 'base/sanitize';
+@import 'config/base';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+//components
+@import 'components/accent/accent';
+@import 'components/profile/profile';
+@import 'components/lines/hr';
+@import 'components/row/row';
+
