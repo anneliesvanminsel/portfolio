@@ -144,22 +144,94 @@ h5 {
   }
 }
 
+.header {
+  position: relative;
+  padding: 0 10px;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 0;
+  }
+}
+
+.header .nav__bar {
+  list-style: none;
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+}
+
+.header .nav__item {
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.header .nav__item:last-child {
+  padding-right: 0;
+}
+
+.header .nav__link {
+  position: relative;
+}
+
+.header .nav__link.active {
+  color: #289c8e;
+}
+
+.header .nav__link:hover:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  background-color: #289c8e;
+}
+
+.footer {
+  position: relative;
+  padding: 0 10px;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 0;
+  }
+}
+
 .accent__block {
   content: "";
   display: block;
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   position: relative;
+  margin-right: 10px;
   background-color: #2fc4b2;
 }
 
 .profile {
-  background-color: #b2f0e8;
-  width: 400px;
-  padding: 20px 40px;
+  background-color: #d5fffa;
+  width: 45%;
   margin-right: 50px;
   text-align: center;
+  box-shadow: -5px 2px 20px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
 }
 
 .profile__bkg {
@@ -167,22 +239,45 @@ h5 {
   display: block;
   position: absolute;
   background-color: #8de5d8;
-  height: 100%;
+  height: calc(100% - 140px);
   width: 40%;
   z-index: -9;
 }
 
 .profile__grid {
+  padding: 0 10px;
+  max-width: 690px;
+  width: 100%;
+  margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 100px;
+  min-height: calc(100vh - 350px);
+}
+
+@media screen and (min-width: 768px) {
+  .profile__grid {
+    padding: 0;
+  }
 }
 
 .profile__image {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
   border-radius: 50%;
   margin: 20px auto;
+}
+
+.profile__social {
+  background-color: #ffffff;
+  padding: 10px 40px;
+}
+
+.hr {
+  border: none;
+  border-top: 2px solid #2fc4b2;
+  width: 100px;
+  margin: 10px auto;
 }
 
 .row {

@@ -1,12 +1,9 @@
-.header {
+.footer {
 	position: relative;
 
 	@include grid();
 	display: flex;
 	align-items: center;
 	padding: $spacing-xs;
-	height: 60px;
-
-	@import 'nav';
+	height: 80px;
 }
-

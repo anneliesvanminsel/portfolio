@@ -1,8 +1,6 @@
-<header class="row">
-	<div class="row">
-		<div class="accent__block">
-		
-		</div>
+<header class="header row">
+	<div class="row row--center is-grow">
+		<div class="accent__block"></div>
 		
 		Annelies Van Minsel
 		
