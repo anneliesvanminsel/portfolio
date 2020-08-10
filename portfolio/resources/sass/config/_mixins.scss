@@ -1,0 +1,57 @@
+
+/*--------------------------------------------------------------
+shadow
+--------------------------------------------------------------*/
+
+@mixin shadow($horizontal: 2px, $vertical: 2px, $blur: 4px, $spread: 0) {
+  box-shadow: $horizontal $vertical $blur $spread hsla(0, 0, 0, 0.3);
+}
+
+/*--------------------------------------------------------------
+gradient
+--------------------------------------------------------------*/
+
+@mixin gradient($direction: right, $color1: $c-medium, $color2: $c-dark) {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -99;
+	opacity: .4;
+	background-image: linear-gradient(to $direction,$color1,$color2);
+}
+
+/*--------------------------------------------------------------
+pseudo
+--------------------------------------------------------------*/
+
+@mixin pseudo($display: block, $pos: absolute, $content: '') {
+	content: $content;
+	display: $display;
+	position: $pos;
+}
+
+
+/*--------------------------------------------------------------
+grid
+--------------------------------------------------------------*/
+@mixin grid($padding: 10px, $maxWidth: 960px) {
+	padding: 0 $padding;
+	max-width: $maxWidth;
+	width: 100%;
+	margin: 0 auto;
+
+	@media screen and (min-width: $breakpoint-tablet) {
+		padding: 0;
+	}
+}
+
+/*--------------------------------------------------------------
+transition
+--------------------------------------------------------------*/
+@mixin default-transition($param: all) {
+	transition: $param $normal-transition-time $default-ease;
+}
+

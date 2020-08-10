@@ -1,0 +1,18 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+@mixin font-logo {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 35px;
+}
+
+@mixin font-heading {
+	font-family: 'Source Code Pro', monospace;
+	letter-spacing: 2px;
+}
+
+@mixin font-base {
+	font-family: 'Montserrat', sans-serif;
+}

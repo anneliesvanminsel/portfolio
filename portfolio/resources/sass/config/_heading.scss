@@ -1,0 +1,40 @@
+h1, h2, h3, h4, h5 {
+	@include font-heading;
+	text-transform: lowercase;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+
+	&.is-white {
+		color: $white;
+	}
+}
+
+h1 {
+	font-size: 40px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 25px;
+	padding: 20px 0;
+}
+
+h3 {
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+h4 {
+	font-size: 18px;
+	padding: 15px 0;
+	text-transform: uppercase;
+	word-break: break-word;
+}
+
+h5 {
+	font-size: 16px;
+	padding: 0 0 10px 0;
+	width: 100%;
+}

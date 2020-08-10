@@ -1,0 +1,30 @@
+@import 'font';
+@import 'variables';
+@import 'mixins';
+@import 'image';
+@import 'heading';
+
+.hidden {
+  display: none;
+}
+
+.link {
+  border-bottom: 1px $c-medium solid;
+  line-height: 1;
+  display: inline-block;
+
+  &:hover {
+    border-bottom: 1px $c-darkmedium solid;
+  }
+}
+
+.ctn-image {
+ img {
+   width: 100%;
+   height: auto;
+ }
+}
+
+.grid {
+  @include grid();
+}
