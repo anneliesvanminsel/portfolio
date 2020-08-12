@@ -9,8 +9,8 @@
         <section class="profile">
             <div class="ctn-image profile__image">
                 <img
-                    src="https://images.pexels.com/photos/2101841/pexels-photo-2101841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                    alt=""
+                    src="{{ asset('img/me.png') }}"
+                    alt="Annelies Van Minsel - BitMoji"
                 >
             </div>
             <div class="profile__name">
