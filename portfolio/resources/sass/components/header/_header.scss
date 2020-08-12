@@ -5,8 +5,11 @@
 	display: flex;
 	align-items: center;
 	padding: $spacing-xs;
-	height: 60px;
 
 	@import 'nav';
+
+	@media screen and (min-width: $breakpoint-mobile) {
+		height: 60px;
+	}
 }
 
