@@ -1,15 +1,15 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap');
 
 
 @mixin font-logo {
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 35px;
 }
 
 @mixin font-heading {
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Nanum Gothic', sans-serif;
 	letter-spacing: 2px;
 }
 
