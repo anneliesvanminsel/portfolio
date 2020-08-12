@@ -8,5 +8,7 @@
 	&.is-heart {
 		fill: $c-darkmedium;
 		margin-left: 0;
+
+		flex-shrink: 0;
 	}
 }

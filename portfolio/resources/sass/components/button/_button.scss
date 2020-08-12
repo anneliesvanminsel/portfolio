@@ -7,6 +7,9 @@ button {
 .button {
 	display: inline-block;
 
+	position: relative;
+	overflow: hidden;
+
 	width: 100%;
 	margin: $spacing-xs 0;
 	padding: 15px $spacing-m;
@@ -33,9 +36,11 @@ button {
 		width: auto;
 		border: none;
 		background-color: transparent;
+		transform: scale(1);
 
 		&:hover {
 			background-color: transparent;
+			transform: scale(1.2);
 		}
 	}
 
@@ -45,5 +50,32 @@ button {
 		padding: 12px;
 		min-width: 200px;
 		width: 200px;
+	}
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 50%;
+		height: 100%;
+		//background: rgba(255,255,255,.1);
+	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: -100%;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);
+		transition: 0.5s;
+	}
+
+	&:hover {
+		&:after {
+			left: 100%;
+		}
 	}
 }
