@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Poiret+One&display=swap);@import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap);* {
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;
+
+800&display=swap);@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -67,7 +69,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Nanum Gothic", sans-serif;
   letter-spacing: 2px;
   text-transform: lowercase;
   width: 100%;
@@ -86,7 +88,6 @@ h5.is-white {
 h1 {
   font-size: 40px;
   padding-bottom: 20px;
-  text-align: center;
 }
 
 h2 {
@@ -138,12 +139,6 @@ h5 {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
-  .grid {
-    padding: 0;
-  }
-}
-
 .header {
   position: relative;
   padding: 0 10px;
@@ -153,13 +148,6 @@ h5 {
   display: flex;
   align-items: center;
   padding: 10px;
-  height: 60px;
-}
-
-@media screen and (min-width: 768px) {
-  .header {
-    padding: 0;
-  }
 }
 
 .header .nav__bar {
@@ -195,6 +183,12 @@ h5 {
   background-color: #289c8e;
 }
 
+@media screen and (min-width: 420px) {
+  .header {
+    height: 60px;
+  }
+}
+
 .footer {
   position: relative;
   padding: 0 10px;
@@ -202,14 +196,52 @@ h5 {
   width: 100%;
   margin: 0 auto;
   display: flex;
-  align-items: center;
-  padding: 10px;
-  height: 80px;
+  flex-direction: column-reverse;
+  padding-top: 20px;
+  font-size: 14px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 640px) {
   .footer {
-    padding: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80px;
+  }
+}
+
+.footer__section {
+  margin: 10px 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 640px) {
+  .footer__section {
+    margin: 0 20px;
+  }
+}
+
+.footer__title {
+  font-family: "Nanum Gothic", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+.footer__text {
+  font-size: 12px;
+}
+
+.footer .logo {
+  margin-top: 10px;
+}
+
+.footer .logo span {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 640px) {
+  .footer .logo {
+    margin-top: 0;
   }
 }
 
@@ -222,57 +254,25 @@ h5 {
   position: relative;
   margin-right: 10px;
   background-color: #2fc4b2;
+  flex-shrink: 0;
 }
 
-.profile {
-  background-color: #d5fffa;
-  width: 45%;
-  margin-right: 50px;
-  text-align: center;
-  box-shadow: -5px 2px 20px 4px rgba(0, 0, 0, 0.3);
-  display: flex;
-  flex-direction: column;
+.logo {
+  font-family: "Nanum Gothic", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 800;
 }
 
-.profile__bkg {
-  content: "";
-  display: block;
-  position: absolute;
-  background-color: #8de5d8;
-  height: calc(100% - 140px);
-  width: 40%;
-  z-index: -9;
-}
-
-.profile__grid {
-  padding: 0 10px;
-  max-width: 690px;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  min-height: calc(100vh - 350px);
-}
-
-@media screen and (min-width: 768px) {
-  .profile__grid {
-    padding: 0;
-  }
-}
-
-.profile__image {
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 50%;
-  margin: 20px auto;
+.logo span {
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .hr {
   border: none;
   border-top: 2px solid #2fc4b2;
   width: 100px;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .row {
@@ -312,6 +312,7 @@ h5 {
 .icon.is-heart {
   fill: #289c8e;
   margin-left: 0;
+  flex-shrink: 0;
 }
 
 .socials {
@@ -322,13 +323,15 @@ h5 {
 
 button {
   -webkit-appearance: none;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Nanum Gothic", sans-serif;
   letter-spacing: 2px;
 }
 
 .btn,
 .button {
   display: inline-block;
+  position: relative;
+  overflow: hidden;
   width: 100%;
   margin: 10px 0;
   padding: 15px 40px;
@@ -336,7 +339,7 @@ button {
   border: 1px solid #2fc4b2;
   background-color: #2fc4b2;
   color: #ffffff;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Nanum Gothic", sans-serif;
   letter-spacing: 2px;
   font-size: 14px;
   text-transform: uppercase;
@@ -353,11 +356,13 @@ button {
   width: auto;
   border: none;
   background-color: transparent;
+  transform: scale(1);
 }
 
 .btn.is-icon:hover,
 .button.is-icon:hover {
   background-color: transparent;
+  transform: scale(1.2);
 }
 
 .btn.is-small,
@@ -367,5 +372,128 @@ button {
   padding: 12px;
   min-width: 200px;
   width: 200px;
+}
+
+.btn:before,
+.button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.btn:after,
+.button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transition: 0.5s;
+}
+
+.btn:hover:after,
+.button:hover:after {
+  left: 100%;
+}
+
+.profile {
+  background-color: #d5fffa;
+  width: 100%;
+  margin-bottom: 100px;
+  text-align: center;
+  box-shadow: -5px 2px 20px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 640px) {
+  .profile {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .profile {
+    width: 45%;
+    margin-right: 50px;
+  }
+}
+
+.profile__bkg {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #8de5d8;
+  height: calc(100% - 275px);
+  width: 35%;
+  z-index: -9;
+}
+
+@media screen and (min-width: 640px) {
+  .profile__bkg {
+    height: calc(100% - 140px);
+  }
+}
+
+.profile__grid {
+  padding: 0 10px;
+  max-width: 690px;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 640px) {
+  .profile__grid {
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    min-height: calc(100vh - 350px);
+  }
+}
+
+.profile__image {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+
+.profile__name {
+  font-size: 18px;
+}
+
+.profile__name p:first-child {
+  margin-bottom: 10px;
+}
+
+.profile__name p:last-child {
+  text-transform: uppercase;
+}
+
+.profile__title {
+  font-family: "Nanum Gothic", sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 640px) {
+  .profile__title {
+    margin-bottom: 0;
+  }
+}
+
+.intro__text {
+  padding-bottom: 20px;
 }
 
