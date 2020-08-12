@@ -2,9 +2,7 @@
 @section('title')
     Annelies Van Minsel
 @endsection
-@section('theme')
-    evento
-@endsection
+@section('theme') @endsection
 @section('content')
     <div class="profile__bkg"></div>
     <div class="grid row profile__grid">
@@ -15,11 +13,11 @@
                     alt=""
                 >
             </div>
-            <div class="profile__title">
-                <p class="profile__firstname">
+            <div class="profile__name">
+                <p class="logo">
                     Annelies
                 </p>
-                <p class="profile__name">
+                <p class="logo">
                     Van Minsel
                 </p>
             </div>
@@ -29,34 +27,43 @@
             </div>
             @include('partials.socials')
         </section>
-        <section>
+        <section class="intro">
             <div>
-                <h1>
+                <h1 class="intro__title">
                     Hi!
                 </h1>
-                <div>
-                    <p>
+                <div class="intro__content">
+                    <p class="intro__text">
                         I am a Belgium based web developer with a bias for Frontend.
                     </p>
                     
-                    <p>
+                    <p class="intro__text">
+                       I just graduated and am currently looking for a job. Can you help me?
+                    </p>
+                    
+                    <p class="intro__text row row--center">
                         @svg('heart', 'is-heart') PHP, React and CSS/SASS.
                     </p>
                     
-                    <p>
+                    <p class="intro__text row row--center">
                         @svg('heart', 'is-heart') houseplants, cats and creating good food.
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <div class="intro__actions row">
                 @if(Route::has('resume'))
-                    <a href="" class="button">
+                    <a href="" class="intro__link button">
                         Resume
                     </a>
                 @endif
                 @if(Route::has('projects.overview'))
-                    <a href="" class="button">
+                    <a href="" class="intro__link button">
                         Projects
+                    </a>
+                @endif
+                @if(Route::has('blog.overview'))
+                    <a href="" class="intro__link button">
+                        Blog
                     </a>
                 @endif
             </div>
