@@ -3,7 +3,50 @@
 
 	@include grid();
 	display: flex;
-	align-items: center;
-	padding: $spacing-xs;
-	height: 80px;
+	flex-direction: column-reverse;
+
+	padding-top: $spacing-s;
+
+	font-size: 14px;
+
+	@media screen and (min-width: $breakpoint-tablet-small) {
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		height: 80px;
+	}
+
+	&__section {
+		margin: 10px 0;
+
+		text-align: center;
+
+		@media screen and (min-width: $breakpoint-tablet-small) {
+			margin: 0 20px;
+		}
+	}
+
+	&__title {
+
+		@include font-heading();
+		font-weight: 800;
+
+
+	}
+
+	&__text {
+		font-size: 12px;
+	}
+
+	.logo {
+		margin-top: 10px;
+
+		span {
+			font-size: 12px;
+		}
+
+		@media screen and (min-width: $breakpoint-tablet-small) {
+			margin-top: 0;
+		}
+	}
 }
